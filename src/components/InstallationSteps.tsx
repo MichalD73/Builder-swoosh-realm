@@ -6,23 +6,23 @@ export default function InstallationSteps() {
     {
       number: 1,
       icon: Truck,
-      title: "We'll deliver your dishwasher to your house",
+      title: "Doručíme myčku až domů",
       description:
-        "Our delivery team will bring your new dishwasher directly to your home at a time that suits you.",
+        "Náš doručovací tým přiveze vaši novou myčku přímo k vám domů v čase, který vám vyhovuje.",
     },
     {
       number: 2,
       icon: Wrench,
-      title: "We build in your built-in dishwasher",
+      title: "Zabudujeme vaši vestavnou myčku",
       description:
-        "Our expert technicians will professionally install and build in your integrated dishwasher.",
+        "Naši odborní technici profesionálně nainstalují a zabudují vaši integrovanou myčku.",
     },
     {
       number: 3,
       icon: Plug,
-      title: "We connect your freestanding dishwasher",
+      title: "Připojíme vaši volně stojící myčku",
       description:
-        "We'll connect all the water and electrical connections to get your dishwasher working perfectly.",
+        "Připojíme všechny vodovodní a elektrické přípojky, aby vaše myčka fungovala perfektně.",
     },
   ];
 
@@ -30,11 +30,11 @@ export default function InstallationSteps() {
     <div className="w-full max-w-6xl mx-auto px-4 py-16">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          Have your dishwasher delivered and installed
+          Nechte si doručit a nainstalovat myčku
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Our professional installation service ensures your dishwasher is set
-          up correctly and ready to use.
+          Naše profesionální instalační služba zajišťuje, že bude vaše myčka
+          správně nastavena a připravena k použití.
         </p>
       </div>
 
