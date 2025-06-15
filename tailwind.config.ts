@@ -62,6 +62,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "installation-blue": "#0090e3",
       },
       borderRadius: {
         lg: "var(--radius)",
