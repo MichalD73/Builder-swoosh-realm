@@ -5,3 +5,4 @@ export { default as InfoSection } from "./InfoSection";
 export { default as ProductAssortment } from "./ProductAssortment";
 export { default as AdviceSection } from "./AdviceSection";
 export { default as FeatureCard } from "./FeatureCard";
+export { default as ChevronIcon } from "./ChevronIcon";
