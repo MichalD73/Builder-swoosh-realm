@@ -97,7 +97,7 @@ const Index = () => {
           <FeatureCard
             image="https://media3.bosch-home.com/Images/1200x/MCIM02066745_awards_flyout.webp"
             alt="ocenění bosch"
-            title="Ocenění a úspěchy"
+            title="Ocenění a úsp��chy"
             description="Naše produkty Bosch získávají ocenění za spolehlivost, design a jednoduchost používání. Přesvědčte se sami v kuchyních Lightstyle nebo na elektrocz.com."
             links={[
               {
@@ -185,8 +185,8 @@ const Index = () => {
                 {/* Product Image */}
                 <div className="absolute right-0 top-[12%] max-w-[180px]">
                   <RawImg
-                    alt="Amazon Pharmacy product image"
-                    image="https://m.media-amazon.com/images/G/01/HST-GAME/Kiwi/BLB-Widget/Pharmacy/Images/Billboard-Hand-With-Bottle.png"
+                    alt="Ruka držící čerstvé byliny pro vaření"
+                    image="https://cdn.builder.io/api/v1/assets/e931550edfef4110aa0b928625ae855e/image-548cef?format=webp&width=800"
                   />
                 </div>
               </div>
@@ -196,8 +196,8 @@ const Index = () => {
           {/* Mobile Image (hidden by default) */}
           <div className="hidden p-0 px-6 pb-6">
             <RawImg
-              alt="Amazon Pharmacy product image"
-              image="https://m.media-amazon.com/images/G/01/HST-GAME/Kiwi/BLB-Widget/Pharmacy/Images/Billboard-Hand-With-Bottle.png"
+              alt="Ruka držící čerstvé byliny pro vaření"
+              image="https://cdn.builder.io/api/v1/assets/e931550edfef4110aa0b928625ae855e/image-548cef?format=webp&width=800"
               className="max-w-[200px] mx-auto"
             />
           </div>
