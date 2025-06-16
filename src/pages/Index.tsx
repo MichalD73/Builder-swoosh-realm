@@ -136,6 +136,215 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Dishwasher Guide Section */}
+      <div className="max-w-[1152px] mx-auto py-8 px-4">
+        <div>
+          <div className="hidden">
+            <h3 className="text-[15px] font-bold leading-[19px] mr-1 mb-1">
+              Jak má vypadat vestavná myčka nádobí v kuchyni?
+            </h3>
+            <a className="text-orange-600 underline">Vysvětlení</a>
+          </div>
+          <h2 className="text-lg font-bold leading-[22.5px] mb-1">
+            <span className="font-bold mr-1">
+              Jak má vypadat vestavná myčka nádobí v kuchyni?
+            </span>
+            <button
+              type="button"
+              className="text-orange-600 text-sm font-bold leading-[21px] px-2 py-1 rounded hover:bg-orange-50 transition-colors"
+            >
+              Vysvětlení
+            </button>
+          </h2>
+          <div className="mt-3">
+            <div className="relative">
+              <button
+                type="button"
+                aria-label="Previous items"
+                className="absolute left-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-12 h-12 bg-white border border-black rounded-full shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <ChevronIcon
+                  className="w-4 h-4 text-orange-600"
+                  direction="left"
+                />
+              </button>
+              <div className="flex overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory -mb-1">
+                <div className="w-1/4 min-w-[180px] max-w-[250px] snap-start pb-1">
+                  <span className="inline-block">
+                    <div className="relative h-full bg-white border border-gray-300 rounded transition-shadow hover:shadow-lg">
+                      <div className="h-40 overflow-hidden rounded-t relative">
+                        <div className="h-full">
+                          <span className="block h-full max-w-full overflow-hidden relative w-full">
+                            <RawImg
+                              alt=""
+                              image="https://image.coolblue.nl/transparent/max/422x390/content/ebfa5945163d11164c7829135dc82e60"
+                              className="block w-full h-full object-cover absolute left-0 top-0"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                      <div className="p-4">
+                        <div>
+                          <h4 className="text-orange-600 font-bold leading-4"></h4>
+                        </div>
+                        <div className="mt-1">
+                          <strong className="text-sm font-bold leading-[17.5px]">
+                            Myčku nevidíte
+                          </strong>
+                          <p className="text-gray-700 text-sm leading-[23px] mt-2">
+                            Zvenku nevidíte, že se jedná o myčku nádobí. Myčku
+                            ovládáte zevnitř.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+                <div className="w-1/4 min-w-[180px] max-w-[250px] snap-start pb-1 ml-4">
+                  <span className="inline-block">
+                    <div className="relative h-full bg-white border border-gray-300 rounded transition-shadow hover:shadow-lg">
+                      <div className="h-40 overflow-hidden rounded-t relative">
+                        <div className="h-full">
+                          <span className="block h-full max-w-full overflow-hidden relative w-full">
+                            <RawImg
+                              alt=""
+                              image="https://image.coolblue.nl/transparent/max/422x390/content/7f5b0648a3639fc617dc4a2a62f592d8"
+                              className="block w-full h-full object-cover absolute left-0 top-0"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                      <div className="p-4">
+                        <div>
+                          <h4 className="text-orange-600 font-bold leading-4"></h4>
+                        </div>
+                        <div className="mt-1">
+                          <strong className="text-sm font-bold leading-[17.5px]">
+                            Vidíte pouze ovládací panel
+                          </strong>
+                          <p className="text-gray-700 text-sm leading-[23px] mt-2">
+                            Myčku ovládáte zvenku. To znamená, že horní část
+                            myčky se liší od vašich kuchyňských skříněk.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+                <div className="w-1/4 min-w-[180px] max-w-[250px] snap-start pb-1 ml-4">
+                  <span className="inline-block">
+                    <div className="relative h-full bg-white border border-gray-300 rounded transition-shadow hover:shadow-lg">
+                      <div className="h-40 overflow-hidden rounded-t relative">
+                        <div className="h-full">
+                          <span className="block h-full max-w-full overflow-hidden relative w-full">
+                            <RawImg
+                              alt=""
+                              image="https://image.coolblue.nl/transparent/max/422x390/content/bc7c90a0ac5c79306376c9b407f188f2"
+                              className="block w-full h-full object-cover absolute left-0 top-0"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                      <div className="p-4">
+                        <div>
+                          <h4 className="text-orange-600 font-bold leading-4"></h4>
+                        </div>
+                        <div className="mt-1">
+                          <strong className="text-sm font-bold leading-[17.5px]">
+                            Vidíte celou myčku
+                          </strong>
+                          <p className="text-gray-700 text-sm leading-[23px] mt-2">
+                            Myčka se liší od vašich kuchyňských skříněk a často
+                            má stříbrné nebo bílé dvířka. Myčku ovládáte
+                            zevnitř.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <button
+                type="button"
+                aria-label="Next items"
+                className="absolute right-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-12 h-12 bg-white border border-black rounded-full shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <ChevronIcon className="w-4 h-4 text-orange-600" />
+              </button>
+            </div>
+            <div className="mt-3">
+              <div className="inline-block">
+                <a
+                  aria-label="Předchozí otázka"
+                  href="#"
+                  className="inline text-orange-600"
+                >
+                  <span className="inline-flex items-start">
+                    <span className="block mr-2">
+                      <ChevronIcon
+                        className="inline-block w-3 h-3 -mt-0.5 text-orange-600"
+                        direction="left"
+                      />
+                    </span>
+                    <span>Předchozí</span>
+                  </span>
+                </a>
+              </div>
+              <div className="inline-block">
+                <div className="mb-2 whitespace-nowrap px-3">
+                  <button
+                    type="submit"
+                    aria-label="Další otázka"
+                    className="inline-block bg-orange-600 text-white font-medium px-6 py-2 rounded whitespace-nowrap hover:bg-orange-700 transition-colors"
+                  >
+                    <span className="inline-flex items-start flex-row-reverse whitespace-nowrap">
+                      <span className="block ml-2 whitespace-nowrap">
+                        <ChevronIcon className="inline-block w-3 h-3 -mt-0.5 text-white" />
+                      </span>
+                      <span className="whitespace-nowrap">Další otázka</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="hidden mt-2 ml-[-1504px]">
+            <div className="h-full overflow-hidden text-center">
+              <div className="inline-block text-gray-400 relative px-2">
+                <span>26</span>
+                <span>results</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Video Section */}
+      <div className="flex items-center justify-center min-h-[715px] bg-white py-8 px-8">
+        <div className="w-full max-w-lg">
+          <div className="bg-[#22252a] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative w-full aspect-[4/3] overflow-hidden">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/3AEyWljIzJs?autoplay=1&loop=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&playlist=3AEyWljIzJs&t=3s&enablejsapi=1&origin=https://localhost&playsinline=1&iv_load_policy=3&cc_load_policy=0&fs=0&disablekb=1"
+                allow="autoplay; encrypted-media; accelerometer; gyroscope; picture-in-picture"
+                allowFullScreen
+                frameBorder="0"
+                title="Elektrocz video"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            </div>
+            <div className="py-8 px-8">
+              <h1 className="text-white text-2xl font-semibold -tracking-[0.6px] leading-8 mb-2">
+                Elektrocz.com v .
+              </h1>
+              <p className="text-white text-lg tracking-[0.45px] leading-7 opacity-90">
+                Jakmile nás vyzkoušíte, budete si jistí svým výběrem
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Feature Cards Section */}
       <main className="max-w-5xl mx-auto py-16 px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -363,7 +572,7 @@ const Index = () => {
             image="https://media3.bosch-home.com/Product_Shots/1200x/16215474_Bosch-RNA-B36CD50SNS-refrigerator-Straight-On-Full-Kitchen-Closed_def.webp"
             alt="Moderní bílá kuchyně"
             title="French Door chladničky s externím ledem a vodou"
-            description="Naplňte svou oblíbenou sklenici nebo láhev bez použití rukou pomocí pokročilé technologie plnění láhví. Naplňte svou oblíbenou nádobu jednou, stiskněte tlačítko plnění láhve pro uložení množství a užijte si plnění bez použití rukou při každém dalším použití."
+            description="Naplňte svou oblíbenou sklenici nebo láhev bez použití rukou pomocí pokročilé technologie plnění láhví. Naplňte svou oblíbenou nádobu jednou, stiskněte tlačítko plnění láhve pro uložení množství a užijte si plnění bez použití rukou p��i každém dalším použití."
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
