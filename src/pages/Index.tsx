@@ -97,7 +97,7 @@ const Index = () => {
           <FeatureCard
             image="https://media3.bosch-home.com/Images/1200x/MCIM02066745_awards_flyout.webp"
             alt="ocenění bosch"
-            title="Ocenění a úsp��chy"
+            title="Ocenění a úspěchy"
             description="Naše produkty Bosch získávají ocenění za spolehlivost, design a jednoduchost používání. Přesvědčte se sami v kuchyních Lightstyle nebo na elektrocz.com."
             links={[
               {
@@ -124,7 +124,7 @@ const Index = () => {
 
       {/* Amazon Pharmacy Section */}
       <div
-        className="bg-[#f1f7f5] min-h-[390px]"
+        className="bg-white min-h-[390px]"
         style={{ fontFamily: '"Amazon Ember", sans-serif' }}
       >
         <div className="max-w-[1000px] mx-auto relative">
