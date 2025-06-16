@@ -1,72 +1,47 @@
-import { useState, useRef } from "react";
-import { PauseIcon, PlayIcon, MutedIcon } from "./ui/video-icons";
-
 interface VideoPlayerProps {
   src: string;
   className?: string;
 }
 
+// Extract YouTube video ID from URL
+const getYouTubeVideoId = (url: string): string => {
+  const regex =
+    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\n?#]+)/;
+  const match = url.match(regex);
+  return match ? match[1] : "";
+};
+
 const VideoPlayer = ({ src, className = "" }: VideoPlayerProps) => {
-  const [isPlaying, setIsPlaying] = useState(true);
-  const [isMuted, setIsMuted] = useState(true);
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const videoId = getYouTubeVideoId(src);
 
-  const togglePlay = () => {
-    if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.pause();
-      } else {
-        videoRef.current.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
+  // If it's a YouTube URL, use embed
+  if (videoId) {
+    const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&controls=1&rel=0`;
 
-  const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !isMuted;
-      setIsMuted(!isMuted);
-    }
-  };
+    return (
+      <div className={`relative h-[310px] w-full ${className}`}>
+        <iframe
+          src={embedUrl}
+          className="block h-full w-full"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="YouTube video"
+        />
+      </div>
+    );
+  }
 
-  const handleVideoClick = () => {
-    togglePlay();
-  };
-
+  // Fallback for regular video files (original implementation without controls since YouTube handles them)
   return (
     <div className={`relative h-[310px] w-full ${className}`}>
       <video
-        ref={videoRef}
         src={src}
         loop
         playsInline
         autoPlay
-        muted={isMuted}
+        muted
         className="block h-full w-full"
-        onClick={handleVideoClick}
       />
-
-      {/* Play/Pause Button */}
-      <div className="absolute bottom-4 left-2.5">
-        <button
-          aria-label={isPlaying ? "Pause video" : "Play video"}
-          onClick={togglePlay}
-          className="inline-block h-6 w-6 bg-transparent border-none transition-opacity duration-150"
-        >
-          {isPlaying ? <PauseIcon /> : <PlayIcon />}
-        </button>
-      </div>
-
-      {/* Mute/Unmute Button */}
-      <div className="absolute bottom-4 right-2.5">
-        <button
-          aria-label={isMuted ? "Unmute video" : "Mute video"}
-          onClick={toggleMute}
-          className="inline-block h-6 w-6 bg-transparent border-none transition-opacity duration-150"
-        >
-          <MutedIcon />
-        </button>
-      </div>
     </div>
   );
 };

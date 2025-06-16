@@ -29,7 +29,7 @@ const Index = () => {
           <div className="flex w-full max-h-[310px]">
             {/* Video Section */}
             <div className="relative w-[55%]">
-              <VideoPlayer src="https://m.media-amazon.com/images/G/01/HST-GAME/Kiwi/BLB-Widget/Pharmacy/Videos/Amazon_Pharmacy_ProductEducation.mp4" />
+              <VideoPlayer src="https://www.youtube.com/watch?v=Bet_k1wHaXI&list=PLAGkymYX2HJZd34DU8XkVyikiMwSUpQUQ&index=2" />
             </div>
 
             {/* Content Section */}
