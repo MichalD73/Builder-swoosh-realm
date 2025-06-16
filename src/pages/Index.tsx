@@ -26,91 +26,6 @@ const Index = () => {
         className="bg-blue-50"
       />
 
-      {/* Feature Cards Section */}
-      <main className="max-w-5xl mx-auto py-16 px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/22501047_Bosch-In-Every-Detail-Teaser-480x270.webp"
-            alt="domácí spotřebiče bosch"
-            title="Bosch v každém detailu"
-            description="Na elektrocz.com a v kuchyních Lightstyle najdete spotřebiče Bosch, které spojují kvalitu, design a funkčnost. Díky našemu závazku k detailu si můžete každý produkt opravdu vyzkoušet. Objevujte na elektrocz.com."
-            links={[
-              { href: "https://elektrocz.com/bosch", text: "O značce Bosch" }
-            ]}
-          />
-
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/22501650_Bosch-Planning-Kitchen-Remodel-Teaser-480x270.webp"
-            alt="plánování kuchyně"
-            title="Plánování kuchyňské rekonstrukce"
-            description="S elektrocz.com a kuchyněmi Lightstyle zvládnete snadno i náročnou kuchyňskou rekonstrukci. Od inspirace až po výběr špičkových spotřebičů Bosch – vše připravíme na míru. Kompletní nabídku najdete na elektrocz.com."
-            links={[
-              { href: "https://elektrocz.com/kuchynske-spotrebice", text: "Začít plánovat" }
-            ]}
-          />
-
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/MCIM02055355_Bosch-service-reviews-small-teaser-480x270.webp"
-            alt="napsat recenzi"
-            title="Napište recenzi"
-            description="Podělte se o svou zkušenost s nákupem u elektrocz.com nebo s kuchyněmi Lightstyle. Vaše názory na spotřebiče Bosch pomáhají dalším zákazníkům při výběru."
-            links={[
-              { href: "https://elektrocz.com/recenze", text: "Napsat recenzi" }
-            ]}
-          />
-
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/MCIM02084680_NY-480x270.webp"
-            alt="bosch benchmark série"
-            title="Benchmark® Serie"
-            description="Na elektrocz.com najdete špičkové spotřebiče série Benchmark® – včetně vestavných chladniček, bočních trub SideOpening a varných desek FlexInduction®. Vše k vidění v našich showroomech Lightstyle."
-            links={[
-              { href: "https://elektrocz.com/bosch-benchmark", text: "Nakupovat Benchmark® sérii" }
-            ]}
-          />
-
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/22501049_Bosch-Heart-of-the-Home-Teaser-480x270.webp"
-            alt="bosch blog o domácnosti"
-            title="Blog a tipy pro spotřebiče"
-            description="Praktické tipy do kuchyně, recepty, inspirace a návody, jak nejlépe využít spotřebiče Bosch – vše přehledně na elektrocz.com."
-            links={[
-              { href: "https://elektrocz.com/blog", text: "Dozvědět se více" },
-              { href: "https://elektrocz.com/navody", text: "Návody a videa" }
-            ]}
-          />
-
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/MCIM02702328_bosch-home-connect-kitchen-480x270.webp"
-            alt="bosch malé prostory"
-            title="Malé prostory. Velký potenciál."
-            description="Spotřebiče Bosch 24'' dostupné na elektrocz.com se perfektně hodí i do malých prostor. Kuchyně Lightstyle navrhneme přesně podle vašich potřeb – bez kompromisů ve stylu ani kvalitě."
-            links={[
-              { href: "https://elektrocz.com/male-spotrebice", text: "Dozvědět se více" }
-            ]}
-          />
-
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/MCIM02066745_awards_flyout.webp"
-            alt="ocenění bosch"
-            title="Ocenění a úspěchy"
-            description="Naše produkty Bosch získávají ocenění za spolehlivost, design a jednoduchost používání. Přesvědčte se sami v kuchyních Lightstyle nebo na elektrocz.com."
-            links={[
-              { href: "https://elektrocz.com/oceneni", text: "Zobrazit ocenění" }
-            ]}
-          />
-
-          <FeatureCard
-            image="https://media3.bosch-home.com/Images/1200x/MCIM02362592_Newsletter_Campaign_Teaser_Box_480_x_270.webp"
-            alt="Newsletter"
-            title="Odběr newsletteru"
-            description="Přihlaste se k odběru newsletteru elektrocz.com a získejte užitečné tipy, novinky, recepty i inspiraci z našich showroomů Lightstyle."
-            links={[
-              { href: "https://elektrocz.com/newsletter", text: "Přihlásit se" }
-            ]}
-        />
-      </div>
-
       {/* Premium Collection Hero Section */}
       <section className="max-w-5xl mx-auto py-20 px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
@@ -129,7 +44,11 @@ const Index = () => {
               </h1>
 
               <div className="text-gray-600 text-lg leading-relaxed mt-6 max-w-2xl">
-                Každá myčka nádobí ElektroCZ vypadá stejně dobře, jak dobře funguje. Naše nejnovější generace myček nádobí byla přepracována a nabízí to nejlepší ve stylu a funkčnosti. Ať už máte moderní, přechodný nebo jakýkoli jiný vkus, myčka ElektroCZ je navržena tak, aby se dokonale hodila a vylepšila vaši ideální kuchyni.
+                Každá myčka nádobí ElektroCZ vypadá stejně dobře, jak dobře
+                funguje. Naše nejnovější generace myček nádobí byla přepracována
+                a nabízí to nejlepší ve stylu a funkčnosti. Ať už máte moderní,
+                přechodný nebo jakýkoli jiný vkus, myčka ElektroCZ je navržena
+                tak, aby se dokonale hodila a vylepšila vaši ideální kuchyni.
               </div>
             </div>
 
@@ -138,7 +57,10 @@ const Index = () => {
                 <span>Nakupovat nyní</span>
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
-              <Button variant="outline" className="border-gray-400 text-gray-400 hover:bg-gray-50 px-8 py-3">
+              <Button
+                variant="outline"
+                className="border-gray-400 text-gray-400 hover:bg-gray-50 px-8 py-3"
+              >
                 Prozkoumat funkce
               </Button>
             </div>
@@ -213,9 +135,112 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Feature Cards Section */}
+      <main className="max-w-5xl mx-auto py-16 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/22501047_Bosch-In-Every-Detail-Teaser-480x270.webp"
+            alt="domácí spotřebiče bosch"
+            title="Bosch v každém detailu"
+            description="Na elektrocz.com a v kuchyních Lightstyle najdete spotřebiče Bosch, které spojují kvalitu, design a funkčnost. Díky našemu závazku k detailu si můžete každý produkt opravdu vyzkoušet. Objevujte na elektrocz.com."
+            links={[
+              { href: "https://elektrocz.com/bosch", text: "O značce Bosch" },
+            ]}
+          />
+
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/22501650_Bosch-Planning-Kitchen-Remodel-Teaser-480x270.webp"
+            alt="plánování kuchyně"
+            title="Plánování kuchyňské rekonstrukce"
+            description="S elektrocz.com a kuchyněmi Lightstyle zvládnete snadno i náročnou kuchyňskou rekonstrukci. Od inspirace až po výběr špičkových spotřebičů Bosch – vše připravíme na míru. Kompletní nabídku najdete na elektrocz.com."
+            links={[
+              {
+                href: "https://elektrocz.com/kuchynske-spotrebice",
+                text: "Začít plánovat",
+              },
+            ]}
+          />
+
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM02055355_Bosch-service-reviews-small-teaser-480x270.webp"
+            alt="napsat recenzi"
+            title="Napište recenzi"
+            description="Podělte se o svou zkušenost s nákupem u elektrocz.com nebo s kuchyněmi Lightstyle. Vaše názory na spotřebiče Bosch pomáhají dalším zákazníkům při výběru."
+            links={[
+              { href: "https://elektrocz.com/recenze", text: "Napsat recenzi" },
+            ]}
+          />
+
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM02084680_NY-480x270.webp"
+            alt="bosch benchmark série"
+            title="Benchmark® Serie"
+            description="Na elektrocz.com najdete špičkové spotřebiče série Benchmark® – včetně vestavných chladniček, bočních trub SideOpening a varných desek FlexInduction®. Vše k vidění v našich showroomech Lightstyle."
+            links={[
+              {
+                href: "https://elektrocz.com/bosch-benchmark",
+                text: "Nakupovat Benchmark® sérii",
+              },
+            ]}
+          />
+
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/22501049_Bosch-Heart-of-the-Home-Teaser-480x270.webp"
+            alt="bosch blog o domácnosti"
+            title="Blog a tipy pro spotřebiče"
+            description="Praktické tipy do kuchyně, recepty, inspirace a návody, jak nejlépe využít spotřebiče Bosch – vše přehledně na elektrocz.com."
+            links={[
+              { href: "https://elektrocz.com/blog", text: "Dozvědět se více" },
+              { href: "https://elektrocz.com/navody", text: "Návody a videa" },
+            ]}
+          />
+
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM02702328_bosch-home-connect-kitchen-480x270.webp"
+            alt="bosch malé prostory"
+            title="Malé prostory. Velký potenciál."
+            description="Spotřebiče Bosch 24'' dostupné na elektrocz.com se perfektně hodí i do malých prostor. Kuchyně Lightstyle navrhneme přesně podle vašich potřeb – bez kompromisů ve stylu ani kvalitě."
+            links={[
+              {
+                href: "https://elektrocz.com/male-spotrebice",
+                text: "Dozvědět se více",
+              },
+            ]}
+          />
+
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM02066745_awards_flyout.webp"
+            alt="ocenění bosch"
+            title="Ocenění a úspěchy"
+            description="Naše produkty Bosch získávají ocenění za spolehlivost, design a jednoduchost používání. Přesvědčte se sami v kuchyních Lightstyle nebo na elektrocz.com."
+            links={[
+              {
+                href: "https://elektrocz.com/oceneni",
+                text: "Zobrazit ocenění",
+              },
+            ]}
+          />
+
+          <FeatureCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM02362592_Newsletter_Campaign_Teaser_Box_480_x_270.webp"
+            alt="Newsletter"
+            title="Odběr newsletteru"
+            description="Přihlaste se k odběru newsletteru elektrocz.com a získejte užitečné tipy, novinky, recepty i inspiraci z našich showroomů Lightstyle."
+            links={[
+              {
+                href: "https://elektrocz.com/newsletter",
+                text: "Přihlásit se",
+              },
+            ]}
+          />
+        </div>
+      </main>
+
       {/* Amazon Pharmacy Section */}
-      {/* Amazon Pharmacy Section */}
-      <div className="bg-white min-h-[390px]" style={{ fontFamily: '"Amazon Ember", sans-serif' }}>
+      <div
+        className="bg-white min-h-[390px]"
+        style={{ fontFamily: '"Amazon Ember", sans-serif' }}
+      >
         <div className="max-w-[1000px] mx-auto relative">
           <div className="flex w-full max-h-[310px]">
             {/* Video Section */}
@@ -238,14 +263,18 @@ const Index = () => {
                 <div>
                   <h2
                     className="text-[#0a2832] pb-1"
-                    style={{ font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif' }}
+                    style={{
+                      font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
+                    }}
                   >
                     Příroda a <br />
                     technologie
                   </h2>
                   <h2
                     className="text-[#0a2832]"
-                    style={{ font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif' }}
+                    style={{
+                      font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
+                    }}
                   >
                     ve vaší kuchyni
                   </h2>
@@ -310,14 +339,22 @@ const Index = () => {
             title="French Door chladničky s VitaFresh® technologií"
             description={
               <>
-                <p>French Door chladničky s technologií VitaFresh® udržují vaše potraviny čerstvé až 3x déle. Spolupracuje s dalšími inovativními funkcemi pro optimální čerstvost, takže si můžete užít méně plýtvání potravinami a více promyšlený design.</p>
-                <p className="text-xs text-gray-500 mt-3">*Ve srovnání s chladničkou bez technologie VitaFresh®. Výsledky se mohou lišit u různých potravin.</p>
+                <p>
+                  French Door chladničky s technologií VitaFresh® udržují vaše
+                  potraviny čerstvé až 3x déle. Spolupracuje s dalšími
+                  inovativními funkcemi pro optimální čerstvost, takže si můžete
+                  užít méně plýtvání potravinami a více promyšlený design.
+                </p>
+                <p className="text-xs text-gray-500 mt-3">
+                  *Ve srovnání s chladničkou bez technologie VitaFresh®.
+                  Výsledky se mohou lišit u různých potravin.
+                </p>
               </>
             }
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
-              text: "Zjistěte více o technologii VitaFresh®"
+              text: "Zjistěte více o technologii VitaFresh®",
             }}
           />
 
@@ -329,7 +366,7 @@ const Index = () => {
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
-              text: "Zjistěte více o systému QuickIce Pro™"
+              text: "Zjistěte více o systému QuickIce Pro™",
             }}
           />
 
@@ -341,7 +378,7 @@ const Index = () => {
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
-              text: "Zjistěte více o Refreshment Center™"
+              text: "Zjistěte více o Refreshment Center™",
             }}
           />
 
