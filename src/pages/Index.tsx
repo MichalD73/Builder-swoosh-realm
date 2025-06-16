@@ -335,7 +335,7 @@ const Index = () => {
             </div>
             <div className="py-8 px-8">
               <h1 className="text-white text-2xl font-semibold -tracking-[0.6px] leading-8 mb-2">
-                Elektrocz.com v .
+                Elektrocz.com v 75 vteřinách .
               </h1>
               <p className="text-white text-lg tracking-[0.45px] leading-7 opacity-90">
                 Jakmile nás vyzkoušíte, budete si jistí svým výběrem
@@ -383,7 +383,7 @@ const Index = () => {
 
           <FeatureCard
             image="https://media3.bosch-home.com/Images/1200x/MCIM02084680_NY-480x270.webp"
-            alt="bosch benchmark série"
+            alt="bosch benchmark s��rie"
             title="Benchmark® Serie"
             description="Na elektrocz.com najdete špičkové spotřebiče série Benchmark® – včetně vestavných chladniček, bočních trub SideOpening a varných desek FlexInduction®. Vše k vidění v našich showroomech Lightstyle."
             links={[
@@ -572,7 +572,7 @@ const Index = () => {
             image="https://media3.bosch-home.com/Product_Shots/1200x/16215474_Bosch-RNA-B36CD50SNS-refrigerator-Straight-On-Full-Kitchen-Closed_def.webp"
             alt="Moderní bílá kuchyně"
             title="French Door chladničky s externím ledem a vodou"
-            description="Naplňte svou oblíbenou sklenici nebo láhev bez použití rukou pomocí pokročilé technologie plnění láhví. Naplňte svou oblíbenou nádobu jednou, stiskněte tlačítko plnění láhve pro uložení množství a užijte si plnění bez použití rukou p��i každém dalším použití."
+            description="Naplňte svou oblíbenou sklenici nebo láhev bez použití rukou pomocí pokročilé technologie plnění láhví. Naplňte svou oblíbenou nádobu jednou, stiskněte tlačítko plnění láhve pro uložení množství a užijte si plnění bez použití rukou při každém dalším použití."
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
