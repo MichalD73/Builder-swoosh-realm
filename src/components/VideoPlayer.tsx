@@ -16,7 +16,7 @@ const VideoPlayer = ({ src, className = "" }: VideoPlayerProps) => {
 
   // If it's a YouTube URL, use embed
   if (videoId) {
-    const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&controls=0&rel=0`;
+    const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&controls=0&rel=0`;
 
     return (
       <div className={`relative h-[310px] w-full ${className}`}>
