@@ -150,15 +150,16 @@ const Index = () => {
                   <h2
                     className="text-[#0a2832] pb-1"
                     style={{
-                      font: '700 32px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
+                      font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
                     }}
                   >
-                    Příroda a technologie
+                    Příroda a <br />
+                    technologie
                   </h2>
                   <h2
                     className="text-[#0a2832]"
                     style={{
-                      font: '700 32px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
+                      font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
                     }}
                   >
                     ve vaší kuchyni
@@ -167,10 +168,10 @@ const Index = () => {
 
                 {/* CTA Button */}
                 <a
-                  aria-label="Learn more about Amazon Pharmacy"
-                  className="inline-block bg-[#ffb447] rounded-lg text-black text-[13px] h-9 leading-9 text-center w-[120px] mt-4 transition-opacity duration-150 hover:opacity-80"
+                  aria-label="Více informací"
+                  className="inline-block bg-[#FF6600] rounded-lg text-[13px] h-9 leading-9 text-center w-[120px] mt-[46px] transition-opacity duration-150 hover:opacity-80"
                 >
-                  Learn more
+                  <span className="text-white">Více informací</span>
                 </a>
 
                 {/* Product Image */}
