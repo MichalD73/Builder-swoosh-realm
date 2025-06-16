@@ -4,3 +4,4 @@ export { default as InstallationSteps } from "./InstallationSteps";
 export { default as InfoSection } from "./InfoSection";
 export { default as ProductAssortment } from "./ProductAssortment";
 export { default as AdviceSection } from "./AdviceSection";
+export { default as FeatureCard } from "./FeatureCard";
