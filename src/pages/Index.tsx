@@ -5,6 +5,7 @@ import AdviceSection from "@/components/AdviceSection";
 import VideoPlayer from "@/components/VideoPlayer";
 import FeatureCard from "@/components/FeatureCard";
 import ProductCard from "@/components/ProductCard";
+import ChevronIcon from "@/components/ChevronIcon";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
