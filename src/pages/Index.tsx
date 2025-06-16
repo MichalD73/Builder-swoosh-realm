@@ -5,6 +5,10 @@ import AdviceSection from "@/components/AdviceSection";
 import VideoPlayer from "@/components/VideoPlayer";
 import FeatureCard from "@/components/FeatureCard";
 import ProductCard from "@/components/ProductCard";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Star, Shield, Zap, Droplets, ArrowRight, Play } from "lucide-react";
 import { RawImg } from "@/components";
 
 const Index = () => {
@@ -31,7 +35,7 @@ const Index = () => {
             title="Bosch v každém detailu"
             description="Na elektrocz.com a v kuchyních Lightstyle najdete spotřebiče Bosch, které spojují kvalitu, design a funkčnost. Díky našemu závazku k detailu si můžete každý produkt opravdu vyzkoušet. Objevujte na elektrocz.com."
             links={[
-              { href: "https://elektrocz.com/bosch", text: "O značce Bosch" },
+              { href: "https://elektrocz.com/bosch", text: "O značce Bosch" }
             ]}
           />
 
@@ -41,10 +45,7 @@ const Index = () => {
             title="Plánování kuchyňské rekonstrukce"
             description="S elektrocz.com a kuchyněmi Lightstyle zvládnete snadno i náročnou kuchyňskou rekonstrukci. Od inspirace až po výběr špičkových spotřebičů Bosch – vše připravíme na míru. Kompletní nabídku najdete na elektrocz.com."
             links={[
-              {
-                href: "https://elektrocz.com/kuchynske-spotrebice",
-                text: "Začít plánovat",
-              },
+              { href: "https://elektrocz.com/kuchynske-spotrebice", text: "Začít plánovat" }
             ]}
           />
 
@@ -54,7 +55,7 @@ const Index = () => {
             title="Napište recenzi"
             description="Podělte se o svou zkušenost s nákupem u elektrocz.com nebo s kuchyněmi Lightstyle. Vaše názory na spotřebiče Bosch pomáhají dalším zákazníkům při výběru."
             links={[
-              { href: "https://elektrocz.com/recenze", text: "Napsat recenzi" },
+              { href: "https://elektrocz.com/recenze", text: "Napsat recenzi" }
             ]}
           />
 
@@ -64,10 +65,7 @@ const Index = () => {
             title="Benchmark® Serie"
             description="Na elektrocz.com najdete špičkové spotřebiče série Benchmark® – včetně vestavných chladniček, bočních trub SideOpening a varných desek FlexInduction®. Vše k vidění v našich showroomech Lightstyle."
             links={[
-              {
-                href: "https://elektrocz.com/bosch-benchmark",
-                text: "Nakupovat Benchmark® sérii",
-              },
+              { href: "https://elektrocz.com/bosch-benchmark", text: "Nakupovat Benchmark® sérii" }
             ]}
           />
 
@@ -78,7 +76,7 @@ const Index = () => {
             description="Praktické tipy do kuchyně, recepty, inspirace a návody, jak nejlépe využít spotřebiče Bosch – vše přehledně na elektrocz.com."
             links={[
               { href: "https://elektrocz.com/blog", text: "Dozvědět se více" },
-              { href: "https://elektrocz.com/navody", text: "Návody a videa" },
+              { href: "https://elektrocz.com/navody", text: "Návody a videa" }
             ]}
           />
 
@@ -88,10 +86,7 @@ const Index = () => {
             title="Malé prostory. Velký potenciál."
             description="Spotřebiče Bosch 24'' dostupné na elektrocz.com se perfektně hodí i do malých prostor. Kuchyně Lightstyle navrhneme přesně podle vašich potřeb – bez kompromisů ve stylu ani kvalitě."
             links={[
-              {
-                href: "https://elektrocz.com/male-spotrebice",
-                text: "Dozvědět se více",
-              },
+              { href: "https://elektrocz.com/male-spotrebice", text: "Dozvědět se více" }
             ]}
           />
 
@@ -101,10 +96,7 @@ const Index = () => {
             title="Ocenění a úspěchy"
             description="Naše produkty Bosch získávají ocenění za spolehlivost, design a jednoduchost používání. Přesvědčte se sami v kuchyních Lightstyle nebo na elektrocz.com."
             links={[
-              {
-                href: "https://elektrocz.com/oceneni",
-                text: "Zobrazit ocenění",
-              },
+              { href: "https://elektrocz.com/oceneni", text: "Zobrazit ocenění" }
             ]}
           />
 
@@ -114,20 +106,116 @@ const Index = () => {
             title="Odběr newsletteru"
             description="Přihlaste se k odběru newsletteru elektrocz.com a získejte užitečné tipy, novinky, recepty i inspiraci z našich showroomů Lightstyle."
             links={[
-              {
-                href: "https://elektrocz.com/newsletter",
-                text: "Přihlásit se",
-              },
+              { href: "https://elektrocz.com/newsletter", text: "Přihlásit se" }
             ]}
-          />
+        />
+      </div>
+
+      {/* Premium Collection Hero Section */}
+      <section className="max-w-5xl mx-auto py-20 px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+          {/* Left Content */}
+          <div className="order-1">
+            <div>
+              <Badge className="inline-flex items-center bg-orange-100 border-orange-200 text-orange-600 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-6">
+                <Star className="w-3 h-3 mr-1 fill-orange-600" />
+                <span>Prémiová kolekce</span>
+              </Badge>
+
+              <h1 className="text-gray-900 text-6xl font-bold leading-tight mt-6">
+                <span>ElektroCZ.com –</span>
+                <span className="text-orange-600"> design</span>
+                <span>, který vylepší každou kuchyni.</span>
+              </h1>
+
+              <div className="text-gray-600 text-lg leading-relaxed mt-6 max-w-2xl">
+                Každá myčka nádobí ElektroCZ vypadá stejně dobře, jak dobře funguje. Naše nejnovější generace myček nádobí byla přepracována a nabízí to nejlepší ve stylu a funkčnosti. Ať už máte moderní, přechodný nebo jakýkoli jiný vkus, myčka ElektroCZ je navržena tak, aby se dokonale hodila a vylepšila vaši ideální kuchyni.
+              </div>
+            </div>
+
+            <div className="flex gap-4 mt-8">
+              <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 gap-2">
+                <span>Nakupovat nyní</span>
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+              <Button variant="outline" className="border-gray-400 text-gray-400 hover:bg-gray-50 px-8 py-3">
+                Prozkoumat funkce
+              </Button>
+            </div>
+
+            {/* Feature Grid */}
+            <div className="grid grid-cols-3 gap-6 mt-8 pt-8">
+              <div>
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-100 rounded-lg text-orange-600 mb-3">
+                  <Shield className="w-5 h-5" />
+                </div>
+                <div className="mt-3">
+                  <h3 className="text-gray-900 font-semibold">
+                    Stavěno na věky
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-5">
+                    Německé inženýrství zajišťuje desetiletí spolehlivého výkonu
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-100 rounded-lg text-orange-600 mb-3">
+                  <Zap className="w-5 h-5" />
+                </div>
+                <div className="mt-3">
+                  <h3 className="text-gray-900 font-semibold">
+                    Energeticky úsporné
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-5">
+                    ENERGY STAR certifikace s pokročilou eco-wash technologií
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-100 rounded-lg text-orange-600 mb-3">
+                  <Droplets className="w-5 h-5" />
+                </div>
+                <div className="mt-3">
+                  <h3 className="text-gray-900 font-semibold">
+                    Dokonalé čištění
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-5">
+                    PrecisionWash technologie pro bezchybné výsledky pokaždé
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Image/Video */}
+          <div className="order-2">
+            <Card className="bg-white rounded-lg shadow-2xl overflow-hidden relative">
+              <div className="aspect-[4/3] bg-gray-900 relative">
+                <RawImg
+                  alt="ElektroCZ myčka nádobí v plně vybavené kuchyni"
+                  image="https://media3.bosch-home.com/Images/2400x/22472095_Benchmark_Pocket_SS_FullKitchen_1567b.webp"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/20" />
+                <button
+                  aria-label="Přehrát video"
+                  className="absolute inset-0 flex items-center justify-center bg-transparent border-none"
+                >
+                  <div className="flex items-center justify-center w-20 h-20 bg-white/90 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+                    <Play className="w-8 h-8 text-orange-600 fill-orange-600 ml-1" />
+                  </div>
+                </button>
+              </div>
+            </Card>
+          </div>
         </div>
-      </main>
+      </section>
 
       {/* Amazon Pharmacy Section */}
-      <div
-        className="bg-white min-h-[390px]"
-        style={{ fontFamily: '"Amazon Ember", sans-serif' }}
-      >
+      {/* Amazon Pharmacy Section */}
+      <div className="bg-white min-h-[390px]" style={{ fontFamily: '"Amazon Ember", sans-serif' }}>
         <div className="max-w-[1000px] mx-auto relative">
           <div className="flex w-full max-h-[310px]">
             {/* Video Section */}
@@ -150,18 +238,14 @@ const Index = () => {
                 <div>
                   <h2
                     className="text-[#0a2832] pb-1"
-                    style={{
-                      font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
-                    }}
+                    style={{ font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif' }}
                   >
                     Příroda a <br />
                     technologie
                   </h2>
                   <h2
                     className="text-[#0a2832]"
-                    style={{
-                      font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
-                    }}
+                    style={{ font: '700 25px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif' }}
                   >
                     ve vaší kuchyni
                   </h2>
@@ -226,22 +310,14 @@ const Index = () => {
             title="French Door chladničky s VitaFresh® technologií"
             description={
               <>
-                <p>
-                  French Door chladničky s technologií VitaFresh® udržují vaše
-                  potraviny čerstvé až 3x déle. Spolupracuje s dalšími
-                  inovativními funkcemi pro optimální čerstvost, takže si můžete
-                  užít méně plýtvání potravinami a více promyšlený design.
-                </p>
-                <p className="text-xs text-gray-500 mt-3">
-                  *Ve srovnání s chladničkou bez technologie VitaFresh®.
-                  Výsledky se mohou lišit u různých potravin.
-                </p>
+                <p>French Door chladničky s technologií VitaFresh® udržují vaše potraviny čerstvé až 3x déle. Spolupracuje s dalšími inovativními funkcemi pro optimální čerstvost, takže si můžete užít méně plýtvání potravinami a více promyšlený design.</p>
+                <p className="text-xs text-gray-500 mt-3">*Ve srovnání s chladničkou bez technologie VitaFresh®. Výsledky se mohou lišit u různých potravin.</p>
               </>
             }
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
-              text: "Zjistěte více o technologii VitaFresh®",
+              text: "Zjistěte více o technologii VitaFresh®"
             }}
           />
 
@@ -253,7 +329,7 @@ const Index = () => {
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
-              text: "Zjistěte více o systému QuickIce Pro™",
+              text: "Zjistěte více o systému QuickIce Pro™"
             }}
           />
 
@@ -265,7 +341,7 @@ const Index = () => {
             href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
             additionalLink={{
               href: "#",
-              text: "Zjistěte více o Refreshment Center™",
+              text: "Zjistěte více o Refreshment Center™"
             }}
           />
 
