@@ -4,6 +4,7 @@ import ProductAssortment from "@/components/ProductAssortment";
 import AdviceSection from "@/components/AdviceSection";
 import VideoPlayer from "@/components/VideoPlayer";
 import FeatureCard from "@/components/FeatureCard";
+import ProductCard from "@/components/ProductCard";
 import { RawImg } from "@/components";
 
 const Index = () => {
@@ -199,6 +200,101 @@ const Index = () => {
       <ProductAssortment />
 
       <AdviceSection />
+
+      {/* Product Cards Section */}
+      <main className="max-w-5xl mx-auto py-12 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <ProductCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM03176413_Straight_On__Open_Fridge___Dish_B36CL80SNS.webp"
+            alt="Nerezová chladnička"
+            title="Nerezové French Door chladničky"
+            description="Volně stojící nebo vestavné French Door chladničky nabízejí nadčasový nerezový luxus. Tyto chladničky se vyznačují působivou kapacitou, robustními skleněnými policemi a krásně jasným LED osvětlením pro snadné prohlížení."
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+          />
+
+          <ProductCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM03176416_Straight_On_Doors_Closed_B36CT80SNB.webp"
+            alt="Černá nerezová chladnička"
+            title="Černé nerezové French Door chladničky"
+            description="Objevte odvážný nový způsob designu vaší kuchyně. Nabízíme chladničky v úžasném černém nerezovém a černém skleněném provedení, které vaší kuchyni dodá vzhled, který je odvážný, elegantní a silný."
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+          />
+
+          <ProductCard
+            image="https://media3.bosch-home.com/Images/1200x/16928784_Bosch-RNA-refrigerator-VEX-hero-kitchen-doors-opened-front-view.webp"
+            alt="French door chladnička s otevřenými dveřmi"
+            title="French Door chladničky s VitaFresh® technologií"
+            description={
+              <>
+                <p>
+                  French Door chladničky s technologií VitaFresh® udržují vaše
+                  potraviny čerstvé až 3x déle. Spolupracuje s dalšími
+                  inovativními funkcemi pro optimální čerstvost, takže si můžete
+                  užít méně plýtvání potravinami a více promyšlený design.
+                </p>
+                <p className="text-xs text-gray-500 mt-3">
+                  *Ve srovnání s chladničkou bez technologie VitaFresh®.
+                  Výsledky se mohou lišit u různých potravin.
+                </p>
+              </>
+            }
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+            additionalLink={{
+              href: "#",
+              text: "Zjistěte více o technologii VitaFresh®",
+            }}
+          />
+
+          <ProductCard
+            image="https://media3.bosch-home.com/Product_Shots/1200x/16215474_Bosch-RNA-B36CD50SNS-refrigerator-Straight-On-Full-Kitchen-Closed_def.webp"
+            alt="Moderní bílá kuchyně"
+            title="French Door chladničky s externím ledem a vodou"
+            description="Naplňte svou oblíbenou sklenici nebo láhev bez použití rukou pomocí pokročilé technologie plnění láhví. Naplňte svou oblíbenou nádobu jednou, stiskněte tlačítko plnění láhve pro uložení množství a užijte si plnění bez použití rukou při každém dalším použití."
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+            additionalLink={{
+              href: "#",
+              text: "Zjistěte více o systému QuickIce Pro™",
+            }}
+          />
+
+          <ProductCard
+            image="https://media3.bosch-home.com/Images/1200x/16959252_Bosch-RNA-white-kitchen-refreshment-center-fridge-ONEPORTAL.webp"
+            alt="Chladnička s vinotékou"
+            title="Refreshment Center™ chladnička"
+            description="Nová Refreshment Center™ french door chladnička obsahuje snadno viditelnou a snadno dostupnou skleněnou zásuvku. Předprogramovaná nastavení odstraňují háádanky při hledání optimální teploty od craftového piva a vín až po šampaňské, džusy a další nápoje."
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+            additionalLink={{
+              href: "#",
+              text: "Zjistěte více o Refreshment Center™",
+            }}
+          />
+
+          <ProductCard
+            image="https://media3.bosch-home.com/Images/1200x/MCIM02823374_30__Custom_Panel_Refrigerator_Collage.webp"
+            alt="Panelové chladničky"
+            title="Panelové French Door chladničky"
+            description="Bezproblémově integrujte svou chladničku do kuchyně. Chladničky připravené pro vlastní panely se instalují úplně zarovnané, takže vaše kuchyně vyniká ze všech správných důvodů. Kompletně zarovnaná instalace zajišťuje, že vaše kuchyně bude mít čisté linie a nadčasový styl."
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+            target="_self"
+          />
+
+          <ProductCard
+            image="https://media3.bosch-home.com/Product_Shots/1200x/17644585_B36CD50SNS_Counter_Depth_png_def.webp"
+            alt="Counter Depth nerezová French Door chladnička"
+            title="Counter Depth French Door chladničky"
+            description="Counter-depth chladničky poskytují vaší kuchyni bezproblémovou konfiguraci mezi skříňkami a pracovními deskami. Counter-depth chladnička bude sedět zarovnaně mezi vašimi pracovními deskami, což vám dává čistší a elegantnější vzhled."
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+          />
+
+          <ProductCard
+            image="https://media3.bosch-home.com/Product_Shots/1200x/17556616_B36FD50SNS_Counter_Depth_png_def.webp"
+            alt="Standardní hloubka nerezová French Door chladnička"
+            title="Standardní hloubka French Door chladničky"
+            description="Chladničky se standardní hloubkou french door nabízejí větší kapacitu a přesahují za vaše pracovní desky."
+            href="https://a4e29427a2ae4c8888610583723359f1-eca9c8cc96944056b0b157500.projects.builder.codes/?reload=1750108737036#"
+          />
+        </div>
+      </main>
 
       <div className="max-w-7xl mx-auto mb-10 px-4">
         <InfoSection

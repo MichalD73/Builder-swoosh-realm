@@ -25,7 +25,7 @@ const AdviceSection = () => {
   ];
 
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-12 mt-px">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
