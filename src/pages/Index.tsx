@@ -38,7 +38,7 @@ const Index = () => {
             image="https://media3.bosch-home.com/Images/1200x/22501650_Bosch-Planning-Kitchen-Remodel-Teaser-480x270.webp"
             alt="plánování kuchyně"
             title="Plánování kuchyňské rekonstrukce"
-            description="S elektrocz.com a kuchyněmi Lightstyle zvládnete snadno i náročnou kuchyňskou rekonstrukci. Od inspirace až po výběr špičkových spotřebičů Bosch – vše připravíme na míru. Kompletn�� nabídku najdete na elektrocz.com."
+            description="S elektrocz.com a kuchyněmi Lightstyle zvládnete snadno i náročnou kuchyňskou rekonstrukci. Od inspirace až po výběr špičkových spotřebičů Bosch – vše připravíme na míru. Kompletní nabídku najdete na elektrocz.com."
             links={[
               {
                 href: "https://elektrocz.com/kuchynske-spotrebice",
@@ -153,15 +153,7 @@ const Index = () => {
                       font: '700 32px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
                     }}
                   >
-                    Your
-                  </h2>
-                  <h2
-                    className="text-[#0a2832] pb-1"
-                    style={{
-                      font: '700 32px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
-                    }}
-                  >
-                    medications
+                    Příroda a technologie
                   </h2>
                   <h2
                     className="text-[#0a2832]"
@@ -169,7 +161,7 @@ const Index = () => {
                       font: '700 32px/40px "Ember Modern Display Standard", "Amazon Ember", Verdana, sans-serif',
                     }}
                   >
-                    made easy
+                    ve vaší kuchyni
                   </h2>
                 </div>
 
