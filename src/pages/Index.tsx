@@ -38,7 +38,7 @@ const Index = () => {
             image="https://media3.bosch-home.com/Images/1200x/22501650_Bosch-Planning-Kitchen-Remodel-Teaser-480x270.webp"
             alt="plánování kuchyně"
             title="Plánování kuchyňské rekonstrukce"
-            description="S elektrocz.com a kuchyněmi Lightstyle zvládnete snadno i náročnou kuchyňskou rekonstrukci. Od inspirace až po výběr špičkových spotřebičů Bosch – vše připravíme na míru. Kompletní nabídku najdete na elektrocz.com."
+            description="S elektrocz.com a kuchyněmi Lightstyle zvládnete snadno i náročnou kuchyňskou rekonstrukci. Od inspirace až po výběr špičkových spotřebičů Bosch – vše připravíme na míru. Kompletn�� nabídku najdete na elektrocz.com."
             links={[
               {
                 href: "https://elektrocz.com/kuchynske-spotrebice",
@@ -139,11 +139,10 @@ const Index = () => {
               <div className="relative">
                 {/* Logo */}
                 <div className="mb-3">
-                  <RawImg
-                    alt="Amazon Pharmacy"
-                    image="https://m.media-amazon.com/images/G/01/HST-GAME/Kiwi/BLB-Widget/Pharmacy/Images/AP_Logo.png"
-                    className="max-h-[26px]"
-                  />
+                  <div className="max-h-[26px] flex items-center gap-1">
+                    <span className="font-bold text-black">elektrocz.com</span>
+                    <span className="text-[#F97316] font-bold">zdravě</span>
+                  </div>
                 </div>
 
                 {/* Headlines */}
